@@ -9,7 +9,7 @@ import (
 
 func main() {
 	//criando conexão
-	db, err := sql.Open("mysql", "root:Sapiencia@10@tcp(127.0.0.1:3306)/")
+	db, err := sql.Open("mysql", "root:password@tcp(127.0.0.1:3306)/")
 	if err != nil {
 		fmt.Println(err.Error())
 
